@@ -6,18 +6,20 @@ export function HomePlaylists() {
   return (
     <div>
       {playlists.map((playlist) => (
+
         <button
           key={playlist.id}
-          className="flex items-center gap-1 p-1 hover:text-navHover overflow-hidden"
+          className="flex items-center gap-1 hover:text-navHover overflow-hidden mt-4"
         >
-          <Image
+          <Image className="rounded-md"
             src={playlist.playlistImage}
             alt={"Capa da playlist"}
-            width={32}
-            height={32}
+            width={48}
+            height={48}
             />
           <span className="flex flex-row justify-start px-1 w-48">{playlist.playlistName}</span>
         </button>
+        
       ))}
     </div>
   );
