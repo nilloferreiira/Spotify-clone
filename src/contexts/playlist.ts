@@ -24,7 +24,7 @@ const playlists: PlaylistInterface[] = [
     playlistName: "Rock",
     musica: musicas,
     playlistImage:
-      "https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/2f52943403d26d002be42fd77144f4023300377c3d223f666fb00fb8ae27a224_1.jpg",
+      "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
   },
 
   {
@@ -47,7 +47,7 @@ const playlists: PlaylistInterface[] = [
     playlistName: "Rock",
     musica: musicas,
     playlistImage:
-      "https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/2f52943403d26d002be42fd77144f4023300377c3d223f666fb00fb8ae27a224_1.jpg",
+      "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
   },
 
   {
@@ -71,7 +71,7 @@ const playlists: PlaylistInterface[] = [
     playlistName: "Rock",
     musica: musicas,
     playlistImage:
-      "https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/2f52943403d26d002be42fd77144f4023300377c3d223f666fb00fb8ae27a224_1.jpg",
+      "https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c",
   },
 ];
 

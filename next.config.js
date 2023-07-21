@@ -4,6 +4,9 @@ const nextConfig = {
         domains: ['imageproxy.ifunny.co',
                   'cdn.awsli.com.br',
                   'blogger.googleusercontent.com',
+                  'i.scdn.co',
+                  'dailymix-images.scdn.co',
+                  'thisis-images.scdn.co',
     ]
     }
 }
