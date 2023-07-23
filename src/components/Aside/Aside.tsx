@@ -1,6 +1,6 @@
-import { Nav } from "./home/Nav";
-import { NavButton } from "./home/NavButtons";
-import { HomePlaylists } from "./home/HomePlaylists";
+import { Nav } from "./Nav";
+import { NavButton } from "./NavButtons";
+import { HomePlaylists } from "../home/main/HomePlaylists"
 
 export function Aside() {
   return (

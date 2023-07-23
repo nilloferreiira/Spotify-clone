@@ -1,5 +1,5 @@
-import { GridPlaylist } from "@/components/home/GridPlaylist";
-import { MadeForYou } from "@/components/home/MadeForYou";
+import { GridPlaylist } from "@/components/home/main/GridPlaylist";
+import { MadeForYou } from "@/components/home/main/MadeForYou";
 import Image from "next/image";
 
 export default function Home() {
