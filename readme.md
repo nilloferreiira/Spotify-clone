@@ -27,7 +27,6 @@ estou juntando elementos do antigo design com o novo, a fim de deixar a interfac
 * Por enquanto essa parte das musicas esta fixa pois nn integrei nenhuma API, no futuro quando terminar o front-end da aplicação pretendo juntar meus conhecimenteos me back-end e tornar essa aplicação ainda mais legal.
 * Dei mais uma melhorada no design da aplicação para deixar a experiência do usuário cada vez melhor e mais agradável.
 
-* ainda tem alguns toques finais do design para ficar do jeito que eu quero, mas vou deixar para fazer amanhã mais descansado.
-
+### dia 25
 
 * separei as funcoes em hooks personalizados com o useCallback para um codigo mais limpo e aproveitar mais as funcoes, usei o useEffect para carregar infos salvas, state para salvar infos e o local storage para armazenar
