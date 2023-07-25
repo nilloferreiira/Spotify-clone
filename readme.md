@@ -28,3 +28,6 @@ estou juntando elementos do antigo design com o novo, a fim de deixar a interfac
 * Dei mais uma melhorada no design da aplicação para deixar a experiência do usuário cada vez melhor e mais agradável.
 
 * ainda tem alguns toques finais do design para ficar do jeito que eu quero, mas vou deixar para fazer amanhã mais descansado.
+
+
+* separei as funcoes em hooks personalizados com o useCallback para um codigo mais limpo e aproveitar mais as funcoes, usei o useEffect para carregar infos salvas, state para salvar infos e o local storage para armazenar

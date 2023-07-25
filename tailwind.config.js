@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         navHover: '#C4C4C4',
+        spotifyGreen: '#6CC04A'
       },
     },
   },
