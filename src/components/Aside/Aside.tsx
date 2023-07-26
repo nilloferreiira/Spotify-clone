@@ -1,6 +1,6 @@
 import { Nav } from "./Nav";
 import { NavButton } from "./NavButtons";
-import { HomePlaylists } from "./HomePlaylists"
+import { HomePlaylists } from "./HomePlaylists";
 
 export function Aside() {
   return (
@@ -14,7 +14,7 @@ export function Aside() {
 
         {/* botoes de criar playlists e fav */}
 
-        <NavButton/>
+        <NavButton />
 
         {/* borda para as playlists  */}
         <div className="border-t border-zinc-700 my-2"></div>

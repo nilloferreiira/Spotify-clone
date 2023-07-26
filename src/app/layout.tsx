@@ -22,7 +22,8 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`bg-zinc-950 text-zinc-50 roboto.className ${roboto.className} overflow-hidden`}>
+        className={`bg-zinc-950 text-zinc-50 roboto.className ${roboto.className} overflow-hidden`}
+      >
         {/* main content */}
         <div className="flex">
           <div>

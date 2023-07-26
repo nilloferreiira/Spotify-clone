@@ -30,3 +30,5 @@ estou juntando elementos do antigo design com o novo, a fim de deixar a interfac
 ### dia 25
 
 * separei as funcoes em hooks personalizados com o useCallback para um codigo mais limpo e aproveitar mais as funcoes, usei o useEffect para carregar infos salvas, state para salvar infos e o local storage para armazenar
+
+*toda vez que pausa a musica o tempo dela fica armazenado no local storage

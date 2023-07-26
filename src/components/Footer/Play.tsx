@@ -7,18 +7,15 @@ import {
   Repeat,
   Pause,
 } from "phosphor-react";
-import { useState } from "react";
-//mudar o state usando o status da api
 
 import useActive from "@/hooks/useActive";
 import usePlay from "@/hooks/usePlay";
-import { Divide } from "lucide-react";
 
 export function Play() {
   // hook
-  const { handleRepeat, handleShuffle, repeatActive, shuffleActive } = useActive()
+  const { handleRepeat, handleShuffle, repeatActive, shuffleActive } =
+    useActive();
   const { handleDrag, maxtime, time, handlePlay, playing } = usePlay();
-
 
   return (
     <div className="flex flex-col items-center mt-2">

@@ -1,4 +1,5 @@
 "use client";
+import useVolume from "@/hooks/useVolume";
 import {
   Queue,
   DesktopTower,
@@ -8,21 +9,7 @@ import {
 import { useState } from "react";
 
 export function RightFooter() {
-  const [volume, setVolume] = useState(50);
-
-  const handleDrag = (event: any) => {
-    const volumeNumber = Number(event.target.value);
-    setVolume(volumeNumber);
-    console.log(volume);
-  };
-
-  const mute = (event: any) => {
-    if (volume < 2) {
-      setVolume(100);
-    } else {
-      setVolume(0);
-    }
-  }
+  const { handleDrag, mute, volume } = useVolume()
 
   return (
     <div className="flex gap-5">

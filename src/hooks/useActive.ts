@@ -15,8 +15,7 @@ export default function useActive() {
     [repeatActive]
   );
 
-
-// get item
+  // get item
   useEffect(() => {
     const shuffle = window.localStorage.getItem("shuffle");
     if (shuffle !== null) setShuffleActive(JSON.parse(shuffle));
@@ -27,8 +26,7 @@ export default function useActive() {
     if (repeat !== null) setRepeatActive(JSON.parse(repeat));
   }, []);
 
-
-// set item
+  // set item
   useEffect(() => {
     window.localStorage.setItem("shuffle", JSON.stringify(shuffleActive));
   }, [handleShuffle]);

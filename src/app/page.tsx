@@ -1,6 +1,5 @@
-import { GridPlaylist } from "@/components/home/main/GridPlaylist";
-import { MadeForYou } from "@/components/home/main/MadeForYou";
-import Image from "next/image";
+import { GridPlaylist } from "@/components/Hero/Main/GridPlaylist";
+import { MadeForYou } from "@/components/Hero/Main/MadeForYou";
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
         {/* made for you  */}
 
         <MadeForYou />
-        
       </div>
     </div>
   );
