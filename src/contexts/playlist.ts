@@ -1,9 +1,5 @@
 import PlaylistInterface from "@/models/Playlist";
 
-// ""rock
-
-// "" pagode
-
 import musics from "./musics";
 
 const musicas = musics.map((musica) => ({
