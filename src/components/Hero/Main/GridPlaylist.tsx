@@ -1,4 +1,4 @@
-import playlists from "@/contexts/playlist";
+import playlists from "@/constants/playlist";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -1,6 +1,6 @@
 import { LeftFooter } from "./LeftFooter";
 import { Play } from "./Play";
-import musics from "@/contexts/musics";
+import musics from "@/constants/musics";
 import { RightFooter } from "./RightFooter";
 
 export function Footer() {

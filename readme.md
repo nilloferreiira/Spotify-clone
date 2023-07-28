@@ -5,6 +5,8 @@ estou juntando elementos do antigo design com o novo, a fim de deixar a interfac
 
 
 ![Foto mais recente](/public/assets/readmeimg.png)
+![Foto mais recente da rota playlist](/public/assets/readmeimgplaylist.png)
+
 
 ### dia 19:
 * Separei as partes da side bar nos seus respectivos componentes. 
@@ -33,3 +35,10 @@ estou juntando elementos do antigo design com o novo, a fim de deixar a interfac
 * usei o useEffect para carregar infos salvas, state para salvar infos e o local storage para armazenar.
 * Agora o volume, o shuffle, o repeat e o tempo da música são salvos no local storage do browser.
 * Detalhe: o tempo da música só é salvo quando o usário pausar a "música" (clicar no botão de pause e play que estão dinâmicos caso a playbar sofra alguma ateração)
+
+### dia 27
+
+* Comecei a criar a rota das playlists e me deparei com um problema: Não descobri como tornar a renderizacao do component de platlist dinamica atraves de um valor, que eu imagino q seja passado através da URL, não pensei em outra forma, como não consegui tornar o component dinâmico, resolvi deixar fixo por enquanto e desenvolver a estrutura básica.
+
+* Terminei o header e comecei a parte de renderizar as musicas, continuo com o problema de não conseguir acessar exatamente da playlist que eu quero.
+Não postei o print com o component implementado, pois ainda tem algumas coisas do design para arrumar que eu resolvi deixar para amanhã

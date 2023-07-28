@@ -1,13 +1,26 @@
-import playlists from "@/contexts/playlist";
+"use client";
+
+import playlists from "@/constants/playlist";
 import Image from "next/image";
+import Link from "next/link";
+import { usePlaylist } from "@/hooks/usePlaylist";
+
+const playlistId = playlists.map((playlist) => playlist.id);
+export default playlistId;
 
 export function HomePlaylists() {
+  
+  
+  const playlistSave = usePlaylist();
+  
+  
   return (
-    <div>
+    <div id="playlist">
       {playlists.map((playlist) => (
-        <button
+        <Link
           key={playlist.id}
           className="flex items-center gap-1 hover:text-navHover overflow-hidden mt-4"
+          href={`/playlist`} // href={`/playlist/${playlist.id}`} pegar esse id na pagina da playlist
         >
           <Image
             className="rounded-md"
@@ -19,27 +32,8 @@ export function HomePlaylists() {
           <span className="flex flex-row justify-start px-1 w-48">
             {playlist.playlistName}
           </span>
-        </button>
+        </Link>
       ))}
     </div>
   );
-
-  // estrutura para montar a visualizacao da playlist
-
-  // <div>
-  //     {musics.map((musica) => (
-  //       <button
-  //         key={musica.id}
-  //         className="flex items-center gap-1 p-1 hover:text-navHover overflow-hidden"
-  //       >
-  //         <Image
-  //           src={musica.image}
-  //           alt={"Capa da playlist"}
-  //           width={32}
-  //           height={32}
-  //         />
-  //         <span className="flex flex-row justify-start px-1 w-48">{musica.name}</span>
-  //       </button>
-  //     ))}
-  //   </div>
 }
