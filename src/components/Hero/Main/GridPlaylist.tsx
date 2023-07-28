@@ -7,7 +7,7 @@ export function GridPlaylist() {
         <div className="grid grid-cols-4 gap-5">
           {playlists.map((playlist) => (
             <div>
-              <Link href={"#"}>
+              <Link href={`/playlist/${playlist.id}`}>
                 <div
                   key={playlist.id}
                   className="flex items-center bg-zinc-800 hover:bg-zinc-700 transition-all rounded-md overflow-hidden"

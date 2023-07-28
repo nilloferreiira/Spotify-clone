@@ -30,7 +30,7 @@ export default function RootLayout({
             <Aside />
           </div>
 
-          <div className="w-full">{children}</div>
+          <div className="w-full min-w-[980px]">{children}</div>
         </div>
 
         <div className="sticky bottom-0">

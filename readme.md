@@ -42,3 +42,9 @@ estou juntando elementos do antigo design com o novo, a fim de deixar a interfac
 
 * Terminei o header e comecei a parte de renderizar as musicas, continuo com o problema de não conseguir acessar exatamente da playlist que eu quero.
 Não postei o print com o component implementado, pois ainda tem algumas coisas do design para arrumar que eu resolvi deixar para amanhã
+
+
+### dia 28
+* Consegui criar uma página de playlist usando as rotas dinâmicas do next e o useParams, assim pegando o valor passado na URL com o chave de 'id' e fazendo um find dentro das playlist para pegar apenas o objeto específico de acordo com o id
+
+* Comecei a estilizar a parte de renderização das músicas 
