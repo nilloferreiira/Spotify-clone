@@ -47,4 +47,4 @@ Não postei o print com o component implementado, pois ainda tem algumas coisas 
 ### dia 28
 * Consegui criar uma página de playlist usando as rotas dinâmicas do next e o useParams, assim pegando o valor passado na URL com o chave de 'id' e fazendo um find dentro das playlist para pegar apenas o objeto específico de acordo com o id
 
-* Comecei a estilizar a parte de renderização das músicas 
+* Terminei o component que renderiza as musicas dentro da playlist, usando o id também, simulei uma foreingKey de playlists com musicas, assim renderizando apenas as músicas que tem o mesmo id correspondente a playlist

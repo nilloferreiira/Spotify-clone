@@ -10,6 +10,7 @@ const musics: SongInterface[] = [
         name: 'heavy',
         author: 'Iann dior',
         album: 'on to better things',
+        playlistId: 1, //simulando uma foreingKey
         image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjraySfBukbl8Xsf3xoiqL8wyAQ7OcncEPzTngXewbK3zgcb51SreEcX4xCAWNir2LKiSCQD9AzoLx5SxFXuXDYu6dnauLEbusm8bviERDrusUtbvssFjFWADg1xxJ23vQDe4-6mDAYlhVzAZ2SuZAQCaX_QObN0Ic5_YpsC2vIz549PLvwGY7OVm9w=w640-h640'
     },
 
@@ -18,6 +19,7 @@ const musics: SongInterface[] = [
         name: 'dark angel (interlude)',
         author: 'Iann dior',
         album: 'on to better things',
+        playlistId: 1, //simulando uma foreingKey
         image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjraySfBukbl8Xsf3xoiqL8wyAQ7OcncEPzTngXewbK3zgcb51SreEcX4xCAWNir2LKiSCQD9AzoLx5SxFXuXDYu6dnauLEbusm8bviERDrusUtbvssFjFWADg1xxJ23vQDe4-6mDAYlhVzAZ2SuZAQCaX_QObN0Ic5_YpsC2vIz549PLvwGY7OVm9w=w640-h640'
     },
 
@@ -26,7 +28,17 @@ const musics: SongInterface[] = [
         name: 'obvious',
         author: 'Iann dior',
         album: 'on to better things',
+        playlistId: 1, //simulando uma foreingKey
         image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjraySfBukbl8Xsf3xoiqL8wyAQ7OcncEPzTngXewbK3zgcb51SreEcX4xCAWNir2LKiSCQD9AzoLx5SxFXuXDYu6dnauLEbusm8bviERDrusUtbvssFjFWADg1xxJ23vQDe4-6mDAYlhVzAZ2SuZAQCaX_QObN0Ic5_YpsC2vIz549PLvwGY7OVm9w=w640-h640'
+    },
+
+    {
+        id: 4,
+        name: 'Welcome to the jungle',
+        author: "Guns N' Roses",
+        album: 'Appetite for Destruction',
+        playlistId: 2, //simulando uma foreingKey
+        image: 'https://i.scdn.co/image/ab6761610000e5eb50defaf9fc059a1efc541f4c'
     }
 ]
 

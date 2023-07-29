@@ -1,14 +1,13 @@
 'use client'
-import { useParams } from "next/navigation"
 import { Header } from "@/components/PlaylistPage/Header";
 import { PlaylistMusics } from "@/components/PlaylistPage/PlaylistMusics";
 import playlists from "@/constants/playlist";
-
+import { useGetId } from "@/hooks/useGetId";
 export default function AllPage() {
     
     // get ID 
-    const params = useParams() 
-    let id = Number(params.id)
+    const { id } = useGetId()
+
     const playlist = playlists.find((playlist) => playlist.id === id);
     
     return (
